@@ -1,0 +1,70 @@
+.app-container {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #333; 
+}
+
+.header {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  font-size: medium;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.card-section {
+  border: 1px solid #999999;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fafafa;
+}
+
+.form-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-layout input, .form-layout textarea, .search-input {
+  width: 100%;
+  margin: 5px 0 15px 0;
+  padding: 8px;
+  border: 1px solid #666;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensures padding doesn't break width */
+}
+
+.btn-add {
+  width: 80px;
+  padding: 5px;
+  background: white;
+  border: 1px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.project-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.img-placeholder {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.project-info h4 { margin: 0; }
+.project-info p { margin: 5px 0 0 0; color: #555; font-size: 0.9rem; }
